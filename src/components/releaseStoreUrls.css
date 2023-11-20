@@ -1,0 +1,9 @@
+.store-link-icon {
+    opacity: 0.6;
+}
+
+.store-link-icon:hover {
+    color: #4f5467;
+    opacity: 1.0;
+    cursor: pointer;
+}

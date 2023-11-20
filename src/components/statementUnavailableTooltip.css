@@ -1,0 +1,8 @@
+.tooltip-icon {
+    opacity: 0.9;
+}
+
+.tooltip-icon:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}

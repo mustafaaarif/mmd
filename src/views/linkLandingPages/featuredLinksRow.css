@@ -1,0 +1,15 @@
+.select-search {
+    width: 100%;
+}
+
+.tooltip-icon {
+    color: #8898aa;
+}
+
+.artistWrap {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 0 20px 0;
+    position: relative;
+}

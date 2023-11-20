@@ -1,0 +1,18 @@
+.note-icon {
+    color: #4f5467;
+    opacity: 0.6;
+}
+
+.note-avl-icon:hover {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.note-avl-icon {
+    opacity: 0.8;
+    color: #ff0b4a;
+}
+
+.popover.show.bs-popover-auto #qc-popover + .arrow::after {
+    border-color: #fdd5dc transparent #fdd5dc transparent;
+}

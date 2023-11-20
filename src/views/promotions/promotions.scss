@@ -1,0 +1,156 @@
+.coverContainer {
+	max-width: 250px;
+}
+
+.coverContainer {
+	span {
+		display: block;
+	}
+}
+
+.rateText {
+	span {
+		display: block;
+		font-size: 16px;
+	}
+}
+
+.rateWrap {
+	max-width: 860px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.chartItem {
+	/* max-width: 355px; */
+	max-width: 33%;
+	position: relative;
+	width: 100%;
+}
+
+.trackTitle {
+	font-size: 24px;
+}
+
+.trackArtist {
+	margin: 0;
+	font-size: 20px;
+}
+.chartRow {
+	display: flex;
+	justify-content: center;
+}
+
+.rateImg {
+	width: 100%;
+	max-width: 200px;
+	height: auto;
+	border-radius: 100%;
+	display: block;
+	margin: 0 0 20px 0;
+}
+
+.commentContainer {
+	margin: 20px auto;
+}
+.promoFeedbackWrap {
+	max-width: 860px;
+	margin: 0 auto;
+}
+
+.infoWrap {
+	margin: 20px auto 0 auto;
+}
+
+.infoWrap {
+	.btn {
+		a {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+		}
+	}
+}
+
+.rateHeader {
+	font-size: 30px;
+	margin: 0 0 40px 0;
+}
+
+.rateItem {
+	display: flex;
+}
+
+.coverColumn {
+	max-width: 35%;
+	width: 100%;
+}
+
+.trackColumn {
+	max-width: 70%;
+	width: 100%;
+	margin: 0 0 0 40px;
+}
+.logoBackground {
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	background-image: url("../../assets/images/MMDBanner.jpg");
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 150px;
+}
+
+.rateInner {
+	padding: 40px 0;
+}
+
+@media (max-width: 768px) {
+	.trackColumn {
+		max-width: 100%;
+		margin: 40px auto 0 auto;
+	}
+	.rateItem {
+		flex-direction: column;
+	}
+
+	.coverColumn {
+		max-width: 100%;
+		display: flex;
+	}
+
+	.rateImg {
+		max-width: 40%;
+	}
+
+	.rateText {
+		margin: 0 0 0 40px;
+		justify-content: center;
+		margin: 0 0 0 40px;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+@media (max-width: 520px) {
+	.playerWrap {
+		flex-direction: column;
+	}
+	.trackButtonContainer {
+		margin: 20px auto 0 auto;
+		flex-direction: row;
+	}
+
+	.coverColumn {
+		flex-direction: column;
+	}
+	.rateText {
+		margin: 0;
+	}
+	.rateImg {
+		max-width: 90%;
+		margin: 0 auto 20px auto;
+	}
+}

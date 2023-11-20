@@ -1,0 +1,13 @@
+.trends-loading svt {
+    vertical-align: middle;
+}
+
+.trends-loading {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tmap {
+    height: 1000px;
+}

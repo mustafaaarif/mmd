@@ -1,0 +1,86 @@
+/* The screen (or content) of the device */
+.ll-two-content {
+	position: fixed;
+	content: "";
+	width: 300px;
+	height: 550px;
+	border-radius: 20px;
+
+	.layout-header {
+		border-top-right-radius: 20px;
+		border-top-left-radius: 20px;
+		width: 100%;
+		min-height: 100px;
+		position: relative;
+		padding-top: 20px;
+	}
+	
+	.layout-links img {
+		display: block;
+		position: absolute;
+		object-fit: cover;
+		border-radius: 40px;
+		width: 80px;
+		height: 80px;
+		right: 50%;
+		transform: translate(50%,-50%);
+		margin-left: calc(50% - 100px);
+		margin-top: -25px;
+	}
+	
+	.featured-links-layout-two-preview {
+		.layoutTwofeaturedLink{
+			padding-top: 2%;
+			padding-bottom: 2%;
+			padding-right: 15%;
+			padding-left: 15%;
+		}
+		
+		.featuredLinkBtn {
+			border: 0px;
+			width: 100%;
+			padding: 10px !important;
+			font-size: 15px !important;
+			white-space: normal !important;
+			word-wrap: break-word !important;
+		}
+		
+		.featuredLinkBtn:hover {
+			color: var(--hover-color) !important;
+			background-color: var(--hover-bg-color) !important;
+			border: var(--hover-border) !important; 
+			opacity: var(--hover-opacity);
+		}
+		
+		.featuredLinkBtn:focus, .featuredLinkBtn.focus {
+			box-shadow: 0 0 0 0.2rem var(--focus-box-shadow); 
+		}
+	}
+	
+	.rounded-button {
+		border-radius: 30px !important;
+	}
+	
+	.semi-rounded-button {
+		border-radius: 15px !important;
+	}
+	
+	.squared-button {
+		border-radius: 0px !important;
+	}
+	
+	.landing-page-title {
+		font-size: 25px;
+		font-weight: 800;
+		margin: 5px;
+		word-wrap: break-word;
+	}
+	
+	.landing-page-description {
+		font-size: 15px;
+		margin: 5px;
+		word-wrap: break-word;
+	}
+}
+
+

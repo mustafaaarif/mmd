@@ -1,0 +1,31 @@
+.trends-loading svt {
+    vertical-align: middle;
+}
+
+.trends-loading {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tmap {
+    height: 1000px;
+}
+
+.btn-primary-custom {
+    color: #fff;
+    background-color: #000a60;
+    border-color: #000a60; }
+    .btn-primary-custom:hover {
+      color: #fff;
+      background-color: #000a60;
+      border-color: #000a60; }
+    .btn-primary-custom.disabled, .btn-primary-custom:disabled {
+      color: #fff;
+      background-color: #000a60;
+      border-color: #000a60; }
+    .btn-primary-custom:not(:disabled):not(.disabled):active, .btn-primary-custom:not(:disabled):not(.disabled).active,
+    .show > .btn-primary-custom.dropdown-toggle {
+      color: #fff;
+      background-color: #000a60;
+      border-color: #000a60; }

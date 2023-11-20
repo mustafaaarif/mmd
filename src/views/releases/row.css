@@ -1,0 +1,30 @@
+/* @media (max-width: 700px) {
+  .artistWrap:not(.labelRow) {
+    flex-wrap: wrap;
+  }
+  .artistWrap:not(.labelRow) .col-3 {
+    max-width: 50%;
+    order: 5;
+  }
+  
+  .artistWrap:not(.labelRow) .col-1 {
+    display: flex;
+    width: 50%;
+    max-width: 50%;
+    order: 0;
+    FLEX: 0 0 50%;
+    margin: 0 0 20px 0;
+  }
+  
+  .artistWrap:not(.labelRow) .col-2 {
+    max-width: 50%;
+    order: 1;
+    margin: 0 0 20px 0;
+  }
+} */
+
+.custom-file-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

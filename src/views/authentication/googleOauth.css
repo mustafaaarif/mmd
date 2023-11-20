@@ -1,0 +1,17 @@
+.google-btn {
+    background: #ffffff;
+    color: #3c4043;
+    border: 1px solid #dadce0;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-family: "Google Sans", arial,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.google-btn:hover {
+    background: #f3f6fb;
+    color: #3c4043;
+}

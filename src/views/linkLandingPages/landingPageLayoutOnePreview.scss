@@ -1,0 +1,86 @@
+.ll-one-content {
+    position: fixed;
+	content: "";
+	width: 300px;
+	height: 550px;
+	border-radius: 20px;
+
+    .logocard {
+		border: 0;
+		border-radius: 10px;
+        margin: 15px 15px;
+	}
+
+    .logocard .card-header {
+        text-align: center;
+        color: #fff;
+        position: relative;
+        border-radius: 8px;
+        padding-top: 1.75rem;
+        padding-bottom: 0px;
+        padding-right: 1.25rem;
+        padding-left: 1.25rem;
+    }
+
+	.logocard .card-header h2 {
+		color: #fff;
+		font-size: 20px;
+		font-weight: 600;
+	}
+
+	.logocard .card-header img {
+        object-fit: cover;
+		border-radius: 40px;
+		width: 80px;
+		height: 80px;
+	}
+    
+
+	.logocard .card-header p {
+		margin-bottom: 15px;
+		font-size: 16px;
+		font-weight: 500;
+	}
+
+	.logocard .card-body {
+		padding: 0;
+	}
+
+	.layoutOnefeaturedLink{
+		padding-top: 2%;
+		padding-bottom: 2%;
+		padding-right: 10%;
+		padding-left: 10%;
+	}
+    
+    .featuredLinkBtn {
+        width: 100%;
+        padding: 10px !important;
+        font-size: 15px !important;
+        white-space: normal !important;
+        word-wrap: break-word !important;
+    }
+    
+    .featuredLinkBtn:hover {
+        color: var(--hover-color) !important;
+        background-color: var(--hover-bg-color) !important;
+        border: var(--hover-border) !important; 
+        opacity: var(--hover-opacity);
+    }
+    
+    .featuredLinkBtn:focus, .featuredLinkBtn.focus {
+        box-shadow: 0 0 0 0.2rem var(--focus-box-shadow); 
+    }
+
+    .rounded-button {
+        border-radius: 30px !important;
+    }
+    
+    .semi-rounded-button {
+        border-radius: 15px !important;
+    }
+    
+    .squared-button {
+        border-radius: 0px !important;
+    }
+}
